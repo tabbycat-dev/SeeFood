@@ -13,6 +13,7 @@
 		C2FE66912498EE48006D96F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FE668F2498EE48006D96F3 /* Main.storyboard */; };
 		C2FE66932498EE4B006D96F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FE66922498EE4B006D96F3 /* Assets.xcassets */; };
 		C2FE66962498EE4B006D96F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FE66942498EE4B006D96F3 /* LaunchScreen.storyboard */; };
+		C2FE669E2498EE67006D96F3 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C2FE669D2498EE67006D96F3 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C2FE66922498EE4B006D96F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2FE66952498EE4B006D96F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2FE66972498EE4B006D96F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2FE669D2498EE67006D96F3 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../../Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				C2FE66922498EE4B006D96F3 /* Assets.xcassets */,
 				C2FE66942498EE4B006D96F3 /* LaunchScreen.storyboard */,
 				C2FE66972498EE4B006D96F3 /* Info.plist */,
+				C2FE669D2498EE67006D96F3 /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2FE668E2498EE48006D96F3 /* ViewController.swift in Sources */,
+				C2FE669E2498EE67006D96F3 /* Inceptionv3.mlmodel in Sources */,
 				C2FE668A2498EE48006D96F3 /* AppDelegate.swift in Sources */,
 				C2FE668C2498EE48006D96F3 /* SceneDelegate.swift in Sources */,
 			);
